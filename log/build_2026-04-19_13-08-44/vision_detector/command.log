@@ -1,6 +1,0 @@
-Invoking command in '/home/lhb/AutoAiming_ws/build/vision_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/vision_detector
-Invoked command in '/home/lhb/AutoAiming_ws/build/vision_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/vision_detector
-Invoking command in '/home/lhb/AutoAiming_ws/build/vision_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/vision_detector -- -j8 -l8
-Invoked command in '/home/lhb/AutoAiming_ws/build/vision_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/vision_detector -- -j8 -l8
-Invoking command in '/home/lhb/AutoAiming_ws/build/vision_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/vision_detector
-Invoked command in '/home/lhb/AutoAiming_ws/build/vision_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/vision_detector

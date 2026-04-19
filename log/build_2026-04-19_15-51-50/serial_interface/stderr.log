@@ -1,4 +1,0 @@
-[31mCMake Error at serialPro/thirdparty/serialib/CMakeLists.txt:1 (cmake_minimum_required):
-  CMake 3.23 or higher is required.  You are running version 3.22.1
-
-[0m

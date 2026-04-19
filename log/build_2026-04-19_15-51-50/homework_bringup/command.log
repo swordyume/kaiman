@@ -1,1 +1,0 @@
-Invoking command in '/home/lhb/AutoAiming_ws/build/homework_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/homework_bringup -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/homework_bringup

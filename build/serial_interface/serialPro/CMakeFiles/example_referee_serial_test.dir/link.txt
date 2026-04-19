@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/example_referee_serial_test.dir/example/referee_serial_test.cpp.o -o example_referee_serial_test  thirdparty/serialib/libserialib.a 

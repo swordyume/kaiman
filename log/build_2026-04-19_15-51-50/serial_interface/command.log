@@ -1,2 +1,0 @@
-Invoking command in '/home/lhb/AutoAiming_ws/build/serial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/serial_interface -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/serial_interface
-Invoked command in '/home/lhb/AutoAiming_ws/build/serial_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/serial_interface -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/serial_interface
