@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/lhb/AutoAiming_ws/src/interfaces:msg/Target.msg",
+    "/home/lhb/AutoAiming_ws/src/interfaces:msg/TargetArray.msg"
+  ]
+}

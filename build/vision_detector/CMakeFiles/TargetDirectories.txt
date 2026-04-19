@@ -1,0 +1,10 @@
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/uninstall.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/vision_detector_uninstall.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/read.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/test.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/edit_cache.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/rebuild_cache.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/list_install_components.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/install.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/install/local.dir
+/home/lhb/AutoAiming_ws/build/vision_detector/CMakeFiles/install/strip.dir

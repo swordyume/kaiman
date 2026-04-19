@@ -1,0 +1,16 @@
+/home/lhb/AutoAiming_ws/install/gimbal_controller/lib/gimbal_controller/find
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/ament_index/resource_index/package_run_dependencies/gimbal_controller
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/ament_index/resource_index/parent_prefix_path/gimbal_controller
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.sh
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.dsv
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/path.sh
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/path.dsv
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.bash
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.sh
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.zsh
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.dsv
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/package.dsv
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/ament_index/resource_index/packages/gimbal_controller
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig.cmake
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig-version.cmake
+/home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/package.xml

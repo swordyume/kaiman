@@ -1,0 +1,4 @@
+Invoking command in '/home/lhb/AutoAiming_ws/build/homework_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/homework_bringup -- -j8 -l8
+Invoked command in '/home/lhb/AutoAiming_ws/build/homework_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/homework_bringup -- -j8 -l8
+Invoking command in '/home/lhb/AutoAiming_ws/build/homework_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/homework_bringup
+Invoked command in '/home/lhb/AutoAiming_ws/build/homework_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/homework_bringup

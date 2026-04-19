@@ -1,0 +1,266 @@
+[0.006s] Invoking command in '/home/lhb/AutoAiming_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/interfaces
+[0.324s] -- The C compiler identification is GNU 11.4.0
+[0.492s] -- The CXX compiler identification is GNU 11.4.0
+[0.503s] -- Detecting C compiler ABI info
+[0.577s] -- Detecting C compiler ABI info - done
+[0.582s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.587s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.661s] -- Detecting CXX compile features
+[0.661s] -- Detecting CXX compile features - done
+[0.664s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.786s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.884s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.930s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.936s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.946s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.005s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.201s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.576s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.578s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.598s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.598s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.598s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.598s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.613s] -- Found PythonExtra: .so  
+[1.650s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.703s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.703s] -- Configured cppcheck include dirs: 
+[1.703s] -- Configured cppcheck exclude dirs and/or files: 
+[1.705s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.707s] -- Added test 'lint_cmake' to check CMake code style
+[1.709s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.716s] -- Added test 'uncrustify' to check C / C++ code style
+[1.716s] -- Configured uncrustify additional arguments: 
+[1.718s] -- Added test 'xmllint' to check XML markup files
+[1.720s] -- Configuring done
+[1.742s] -- Generating done
+[1.749s] -- Build files have been written to: /home/lhb/AutoAiming_ws/build/interfaces
+[1.754s] Invoked command in '/home/lhb/AutoAiming_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/interfaces
+[1.755s] Invoking command in '/home/lhb/AutoAiming_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/interfaces -- -j8 -l8
+[1.782s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.789s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.795s] [  5%] Built target ament_cmake_python_copy_interfaces
+[1.954s] running egg_info
+[1.955s] creating interfaces.egg-info
+[1.955s] writing interfaces.egg-info/PKG-INFO
+[1.955s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[1.955s] writing top-level names to interfaces.egg-info/top_level.txt
+[1.955s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.957s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.957s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.979s] [  5%] Built target ament_cmake_python_build_interfaces_egg
+[2.032s] [  5%] Built target interfaces__cpp
+[2.040s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.040s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.040s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.046s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/target__functions.c.o[0m
+[2.048s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/target_array__functions.c.o[0m
+[2.110s] [ 20%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[2.141s] [ 20%] Built target interfaces__rosidl_generator_c
+[2.150s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.151s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.151s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.235s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/target__type_support.cpp.o[0m
+[2.236s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/target_array__type_support.cpp.o[0m
+[2.311s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/target__type_support.cpp.o[0m
+[2.313s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/target_array__type_support.cpp.o[0m
+[2.385s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[2.430s] [ 43%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/target__type_support.c.o[0m
+[2.470s] [ 46%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/target_array__type_support.c.o[0m
+[2.476s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/target__type_support.cpp.o[0m
+[2.514s] [ 51%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[2.517s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/target_array__type_support.cpp.o[0m
+[2.522s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[2.557s] [ 58%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[2.558s] [ 58%] Built target interfaces__rosidl_typesupport_introspection_c
+[2.568s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/target_array__type_support_c.cpp.o[0m
+[2.586s] [ 66%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[2.586s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/target_array__type_support.cpp.o[0m
+[2.607s] [ 66%] Built target interfaces__rosidl_typesupport_c
+[2.637s] [ 66%] Built target interfaces__rosidl_typesupport_cpp
+[2.788s] [ 69%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.852s] [ 69%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[2.887s] [ 71%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.948s] [ 71%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[2.991s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.045s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[3.060s] [ 74%] Built target interfaces
+[3.080s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.342s] [ 76%] Built target interfaces__py
+[3.357s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_target_array_s.c.o[0m
+[3.357s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_target_s.c.o[0m
+[3.466s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[3.496s] [ 84%] Built target interfaces__rosidl_generator_py
+[3.511s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.511s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.511s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.584s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.584s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.584s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.611s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[3.612s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[3.612s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.620s] Invoked command in '/home/lhb/AutoAiming_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/interfaces -- -j8 -l8
+[3.627s] Invoking command in '/home/lhb/AutoAiming_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/interfaces
+[3.632s] -- Install configuration: ""
+[3.632s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[3.632s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces
+[3.632s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg
+[3.632s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/target.h
+[3.632s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/target_array.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__struct.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__functions.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__struct.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__type_support.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__type_support.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__functions.c
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__functions.h
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__functions.c
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[3.633s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[3.634s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[3.634s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces
+[3.634s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg
+[3.634s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.634s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.634s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h
+[3.634s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[3.634s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[3.634s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.634s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces
+[3.634s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg
+[3.634s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/target.hpp
+[3.634s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.634s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/target_array.hpp
+[3.635s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__type_support.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__struct.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__type_support.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__traits.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__builder.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__struct.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__builder.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__traits.hpp
+[3.635s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces
+[3.635s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.635s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.635s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.636s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.636s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces
+[3.636s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg
+[3.636s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.636s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.636s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[3.636s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__type_support.c
+[3.636s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__type_support.c
+[3.636s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__rosidl_typesupport_introspection_c.h
+[3.636s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[3.636s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.636s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[3.637s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[3.637s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces
+[3.637s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg
+[3.637s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__type_support.cpp
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/include/interfaces/interfaces/msg/detail/target_array__type_support.cpp
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[3.637s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[3.637s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[3.637s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_target_array_s.c
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[3.638s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_target_array.py
+[3.639s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_target_s.c
+[3.639s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_target.py
+[3.639s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[3.639s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[3.639s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.639s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.664s] Listing '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[3.664s] Compiling '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[3.664s] Listing '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[3.664s] Compiling '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[3.664s] Compiling '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_target.py'...
+[3.664s] Compiling '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_target_array.py'...
+[3.667s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.667s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.668s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.668s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.668s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.668s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.668s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[3.668s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[3.668s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/msg/Target.idl
+[3.668s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/msg/TargetArray.idl
+[3.668s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/msg/Target.msg
+[3.668s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/msg/TargetArray.msg
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/path.sh
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/environment/path.dsv
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/local_setup.bash
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/local_setup.sh
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/local_setup.zsh
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/local_setup.dsv
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/package.dsv
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.669s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.670s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[3.671s] -- Installing: /home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/package.xml
+[3.673s] Invoked command in '/home/lhb/AutoAiming_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/interfaces

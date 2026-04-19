@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/lhb/AutoAiming_ws/build/serial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/serial_interface -- -j8 -l8
+[0.097s] [ 18%] Built target example_msg_serialize
+[0.097s] [ 36%] Built target serialib
+[0.132s] [ 54%] Built target example_serial_test
+[0.134s] [ 72%] Built target example_referee_serial_test
+[0.152s] [ 81%] [32mBuilding CXX object CMakeFiles/fire.dir/src/main.cpp.o[0m
+[0.154s] [ 90%] [32mBuilding CXX object CMakeFiles/fire.dir/src/SendToSer.cpp.o[0m
+[6.806s] [100%] [32m[1mLinking CXX executable fire[0m
+[7.190s] [100%] Built target fire
+[7.204s] Invoked command in '/home/lhb/AutoAiming_ws/build/serial_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/serial_interface -- -j8 -l8
+[7.209s] Invoking command in '/home/lhb/AutoAiming_ws/build/serial_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/serial_interface
+[7.216s] -- Install configuration: ""
+[7.217s] -- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/lib/serial_interface/fire
+[7.219s] -- Set runtime path of "/home/lhb/AutoAiming_ws/install/serial_interface/lib/serial_interface/fire" to ""
+[7.220s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/ament_index/resource_index/package_run_dependencies/serial_interface
+[7.220s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/ament_index/resource_index/parent_prefix_path/serial_interface
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/ament_prefix_path.sh
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/ament_prefix_path.dsv
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/path.sh
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/path.dsv
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.bash
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.sh
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.zsh
+[7.222s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.dsv
+[7.223s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/package.dsv
+[7.223s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/ament_index/resource_index/packages/serial_interface
+[7.223s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/cmake/serial_interfaceConfig.cmake
+[7.223s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/cmake/serial_interfaceConfig-version.cmake
+[7.223s] -- Up-to-date: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/package.xml
+[7.226s] Invoked command in '/home/lhb/AutoAiming_ws/build/serial_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/serial_interface

@@ -1,0 +1,10 @@
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/uninstall.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/gimbal_controller_uninstall.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/find.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/test.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/edit_cache.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/rebuild_cache.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/list_install_components.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/install.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/install/local.dir
+/home/lhb/AutoAiming_ws/build/gimbal_controller/CMakeFiles/install/strip.dir

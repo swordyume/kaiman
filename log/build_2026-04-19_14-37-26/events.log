@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000223] (-) JobUnselected: {'identifier': 'serial_interface'}
+[0.000235] (-) JobUnselected: {'identifier': 'vision_detector'}
+[0.000248] (gimbal_controller) JobQueued: {'identifier': 'gimbal_controller', 'dependencies': OrderedDict([('interfaces', '/home/lhb/AutoAiming_ws/install/interfaces')])}
+[0.000562] (gimbal_controller) JobStarted: {'identifier': 'gimbal_controller'}
+[0.013641] (gimbal_controller) JobProgress: {'identifier': 'gimbal_controller', 'progress': 'cmake'}
+[0.014276] (gimbal_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/lhb/AutoAiming_ws/src/gimbal_controller', '-DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/gimbal_controller'], 'cwd': '/home/lhb/AutoAiming_ws/build/gimbal_controller', 'env': OrderedDict([('TERM_SESSION_ID', 'c3f9876f-6edb-4e3d-bc83-550679269e1b'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lhb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lhb/AutoAiming_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhb'), ('OLDPWD', '/home/lhb/AutoAiming_ws/src/serial_interface'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1750'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lhb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/pycharm-2025.3.3/bin:/home/lhb/.platformio/penv/bin:/opt/pycharm-2025.3.3/bin'), ('SESSION_MANAGER', 'local/lhb-NBD-WXX9:@/tmp/.ICE-unix/1542,unix/lhb-NBD-WXX9:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b23bda6_7e70_407d_a96c_e94ced1d761b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1Y10N3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install/vision_detector:/home/lhb/AutoAiming_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhb/AutoAiming_ws/build/gimbal_controller'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install/interfaces:/home/lhb/AutoAiming_ws/install/vision_detector:/opt/ros/humble')]), 'shell': False}
+[0.099913] (-) TimerEvent: {}
+[0.140258] (gimbal_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200110] (-) TimerEvent: {}
+[0.202397] (gimbal_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.214548] (gimbal_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.279624] (gimbal_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.284636] (gimbal_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.285313] (gimbal_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.286248] (gimbal_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.290361] (gimbal_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300223] (-) TimerEvent: {}
+[0.348731] (gimbal_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.354237] (gimbal_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.354430] (gimbal_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.354745] (gimbal_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.356201] (gimbal_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400328] (-) TimerEvent: {}
+[0.466708] (gimbal_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500440] (-) TimerEvent: {}
+[0.526183] (gimbal_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.551965] (gimbal_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.554826] (gimbal_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.559946] (gimbal_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.567334] (gimbal_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.577204] (gimbal_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600619] (-) TimerEvent: {}
+[0.603555] (gimbal_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.605023] (gimbal_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.663740] (gimbal_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.680873] (gimbal_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700707] (-) TimerEvent: {}
+[0.708733] (gimbal_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.715832] (gimbal_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.772251] (gimbal_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.772429] (gimbal_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800805] (-) TimerEvent: {}
+[0.827132] (gimbal_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.827960] (gimbal_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.870445] (gimbal_controller) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") \n'}
+[0.872239] (gimbal_controller) StdoutLine: {'line': b'-- Found interfaces: 0.0.0 (/home/lhb/AutoAiming_ws/install/interfaces/share/interfaces/cmake)\n'}
+[0.889638] (gimbal_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900892] (-) TimerEvent: {}
+[0.945609] (gimbal_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.945805] (gimbal_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.945876] (gimbal_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.947070] (gimbal_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.950235] (gimbal_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.950351] (gimbal_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.950862] (gimbal_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.951657] (gimbal_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.959914] (gimbal_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[0.962695] (gimbal_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/lhb/AutoAiming_ws/build/gimbal_controller\n'}
+[0.969489] (gimbal_controller) CommandEnded: {'returncode': 0}
+[0.970003] (gimbal_controller) JobProgress: {'identifier': 'gimbal_controller', 'progress': 'build'}
+[0.970586] (gimbal_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lhb/AutoAiming_ws/build/gimbal_controller', '--', '-j8', '-l8'], 'cwd': '/home/lhb/AutoAiming_ws/build/gimbal_controller', 'env': OrderedDict([('TERM_SESSION_ID', 'c3f9876f-6edb-4e3d-bc83-550679269e1b'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lhb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lhb/AutoAiming_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhb'), ('OLDPWD', '/home/lhb/AutoAiming_ws/src/serial_interface'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1750'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lhb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/pycharm-2025.3.3/bin:/home/lhb/.platformio/penv/bin:/opt/pycharm-2025.3.3/bin'), ('SESSION_MANAGER', 'local/lhb-NBD-WXX9:@/tmp/.ICE-unix/1542,unix/lhb-NBD-WXX9:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b23bda6_7e70_407d_a96c_e94ced1d761b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1Y10N3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install/vision_detector:/home/lhb/AutoAiming_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhb/AutoAiming_ws/build/gimbal_controller'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install/interfaces:/home/lhb/AutoAiming_ws/install/vision_detector:/opt/ros/humble')]), 'shell': False}
+[1.001023] (-) TimerEvent: {}
+[1.016758] (gimbal_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/find.dir/src/main.cpp.o\x1b[0m\n'}
+[1.016921] (gimbal_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/find.dir/src/chooser.cpp.o\x1b[0m\n'}
+[1.101124] (-) TimerEvent: {}
+[1.201439] (-) TimerEvent: {}
+[1.301780] (-) TimerEvent: {}
+[1.402125] (-) TimerEvent: {}
+[1.502452] (-) TimerEvent: {}
+[1.602815] (-) TimerEvent: {}
+[1.703155] (-) TimerEvent: {}
+[1.803579] (-) TimerEvent: {}
+[1.903882] (-) TimerEvent: {}
+[2.004210] (-) TimerEvent: {}
+[2.104498] (-) TimerEvent: {}
+[2.204785] (-) TimerEvent: {}
+[2.305171] (-) TimerEvent: {}
+[2.405520] (-) TimerEvent: {}
+[2.505895] (-) TimerEvent: {}
+[2.606155] (-) TimerEvent: {}
+[2.706550] (-) TimerEvent: {}
+[2.806842] (-) TimerEvent: {}
+[2.907163] (-) TimerEvent: {}
+[3.007511] (-) TimerEvent: {}
+[3.107782] (-) TimerEvent: {}
+[3.208061] (-) TimerEvent: {}
+[3.308428] (-) TimerEvent: {}
+[3.325797] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[3.325997] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:\x1b[m\x1b[K In lambda function:\n'}
+[3.326049] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:49:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Armour>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.326095] (gimbal_controller) StderrLine: {'line': b'   49 |                 for (int i=0;\x1b[01;35m\x1b[Ki<target_armours.size()-1\x1b[m\x1b[K;i++){\n'}
+[3.326134] (gimbal_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.326168] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:50:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Armour>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.326206] (gimbal_controller) StderrLine: {'line': b'   50 |                     for (int j=0;\x1b[01;35m\x1b[Kj<target_armours.size()-1\x1b[m\x1b[K;j++){\n'}
+[3.326240] (gimbal_controller) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.326274] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:63:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Armour>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.326313] (gimbal_controller) StderrLine: {'line': b'   63 |                 for (int j=0;\x1b[01;35m\x1b[Kj<target_armours.size()\x1b[m\x1b[K;j++){\n'}
+[3.326346] (gimbal_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.326696] (gimbal_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.cpp:5\x1b[m\x1b[K:\n'}
+[3.326800] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:\x1b[m\x1b[K In lambda function:\n'}
+[3.326841] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:49:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Armour>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.326886] (gimbal_controller) StderrLine: {'line': b'   49 |                 for (int i=0;\x1b[01;35m\x1b[Ki<target_armours.size()-1\x1b[m\x1b[K;i++){\n'}
+[3.326921] (gimbal_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.326956] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:50:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Armour>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.326996] (gimbal_controller) StderrLine: {'line': b'   50 |                     for (int j=0;\x1b[01;35m\x1b[Kj<target_armours.size()-1\x1b[m\x1b[K;j++){\n'}
+[3.327031] (gimbal_controller) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.327063] (gimbal_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lhb/AutoAiming_ws/src/gimbal_controller/src/chooser.h:63:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Armour>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.327099] (gimbal_controller) StderrLine: {'line': b'   63 |                 for (int j=0;\x1b[01;35m\x1b[Kj<target_armours.size()\x1b[m\x1b[K;j++){\n'}
+[3.327132] (gimbal_controller) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.408640] (-) TimerEvent: {}
+[3.508902] (-) TimerEvent: {}
+[3.609186] (-) TimerEvent: {}
+[3.709483] (-) TimerEvent: {}
+[3.809789] (-) TimerEvent: {}
+[3.910193] (-) TimerEvent: {}
+[4.010543] (-) TimerEvent: {}
+[4.110797] (-) TimerEvent: {}
+[4.211139] (-) TimerEvent: {}
+[4.311441] (-) TimerEvent: {}
+[4.411800] (-) TimerEvent: {}
+[4.512179] (-) TimerEvent: {}
+[4.612443] (-) TimerEvent: {}
+[4.712752] (-) TimerEvent: {}
+[4.813049] (-) TimerEvent: {}
+[4.913411] (-) TimerEvent: {}
+[5.013741] (-) TimerEvent: {}
+[5.114003] (-) TimerEvent: {}
+[5.214358] (-) TimerEvent: {}
+[5.314714] (-) TimerEvent: {}
+[5.414980] (-) TimerEvent: {}
+[5.515283] (-) TimerEvent: {}
+[5.615520] (-) TimerEvent: {}
+[5.715763] (-) TimerEvent: {}
+[5.816103] (-) TimerEvent: {}
+[5.916397] (-) TimerEvent: {}
+[6.016699] (-) TimerEvent: {}
+[6.117032] (-) TimerEvent: {}
+[6.217378] (-) TimerEvent: {}
+[6.317668] (-) TimerEvent: {}
+[6.418031] (-) TimerEvent: {}
+[6.518394] (-) TimerEvent: {}
+[6.618736] (-) TimerEvent: {}
+[6.719087] (-) TimerEvent: {}
+[6.819417] (-) TimerEvent: {}
+[6.919669] (-) TimerEvent: {}
+[7.019912] (-) TimerEvent: {}
+[7.120255] (-) TimerEvent: {}
+[7.220541] (-) TimerEvent: {}
+[7.320820] (-) TimerEvent: {}
+[7.421103] (-) TimerEvent: {}
+[7.521366] (-) TimerEvent: {}
+[7.621681] (-) TimerEvent: {}
+[7.721952] (-) TimerEvent: {}
+[7.822341] (-) TimerEvent: {}
+[7.922693] (-) TimerEvent: {}
+[7.967784] (gimbal_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable find\x1b[0m\n'}
+[8.022895] (-) TimerEvent: {}
+[8.123235] (-) TimerEvent: {}
+[8.223589] (-) TimerEvent: {}
+[8.323876] (-) TimerEvent: {}
+[8.390817] (gimbal_controller) StdoutLine: {'line': b'[100%] Built target find\n'}
+[8.398857] (gimbal_controller) CommandEnded: {'returncode': 0}
+[8.399329] (gimbal_controller) JobProgress: {'identifier': 'gimbal_controller', 'progress': 'install'}
+[8.405727] (gimbal_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lhb/AutoAiming_ws/build/gimbal_controller'], 'cwd': '/home/lhb/AutoAiming_ws/build/gimbal_controller', 'env': OrderedDict([('TERM_SESSION_ID', 'c3f9876f-6edb-4e3d-bc83-550679269e1b'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lhb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lhb/AutoAiming_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhb'), ('OLDPWD', '/home/lhb/AutoAiming_ws/src/serial_interface'), ('DESKTOP_SESSION', 'ubuntu'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1750'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lhb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/pycharm-2025.3.3/bin:/home/lhb/.platformio/penv/bin:/opt/pycharm-2025.3.3/bin'), ('SESSION_MANAGER', 'local/lhb-NBD-WXX9:@/tmp/.ICE-unix/1542,unix/lhb-NBD-WXX9:/tmp/.ICE-unix/1542'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b23bda6_7e70_407d_a96c_e94ced1d761b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1Y10N3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('FIG_TERM', '1'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install/vision_detector:/home/lhb/AutoAiming_ws/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhb/AutoAiming_ws/build/gimbal_controller'), ('PROCESS_LAUNCHED_BY_CW', '1'), ('INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lhb/AutoAiming_ws/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('PROCESS_LAUNCHED_BY_Q', '1'), ('CMAKE_PREFIX_PATH', '/home/lhb/AutoAiming_ws/install/interfaces:/home/lhb/AutoAiming_ws/install/vision_detector:/opt/ros/humble')]), 'shell': False}
+[8.411100] (gimbal_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.411237] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/ament_index/resource_index/package_run_dependencies/gimbal_controller\n'}
+[8.411327] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/ament_index/resource_index/parent_prefix_path/gimbal_controller\n'}
+[8.411431] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.sh\n'}
+[8.411497] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/ament_prefix_path.dsv\n'}
+[8.411561] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/path.sh\n'}
+[8.411631] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/environment/path.dsv\n'}
+[8.411694] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.bash\n'}
+[8.411761] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.sh\n'}
+[8.411826] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.zsh\n'}
+[8.411891] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/local_setup.dsv\n'}
+[8.411953] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/package.dsv\n'}
+[8.412038] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/ament_index/resource_index/packages/gimbal_controller\n'}
+[8.412130] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig.cmake\n'}
+[8.412185] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/cmake/gimbal_controllerConfig-version.cmake\n'}
+[8.412302] (gimbal_controller) StdoutLine: {'line': b'-- Installing: /home/lhb/AutoAiming_ws/install/gimbal_controller/share/gimbal_controller/package.xml\n'}
+[8.413717] (gimbal_controller) CommandEnded: {'returncode': 0}
+[8.424106] (-) TimerEvent: {}
+[8.432197] (gimbal_controller) JobEnded: {'identifier': 'gimbal_controller', 'rc': 0}
+[8.432723] (-) EventReactorShutdown: {}

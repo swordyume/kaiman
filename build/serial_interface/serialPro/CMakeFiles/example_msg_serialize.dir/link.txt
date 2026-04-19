@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/example_msg_serialize.dir/example/msg_serializer_test.cpp.o -o example_msg_serialize 

@@ -1,0 +1,6 @@
+Invoking command in '/home/lhb/AutoAiming_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/interfaces
+Invoked command in '/home/lhb/AutoAiming_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lhb/AutoAiming_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/lhb/AutoAiming_ws/install/interfaces
+Invoking command in '/home/lhb/AutoAiming_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/interfaces -- -j8 -l8
+Invoked command in '/home/lhb/AutoAiming_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lhb/AutoAiming_ws/build/interfaces -- -j8 -l8
+Invoking command in '/home/lhb/AutoAiming_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/interfaces
+Invoked command in '/home/lhb/AutoAiming_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lhb/AutoAiming_ws/build/interfaces

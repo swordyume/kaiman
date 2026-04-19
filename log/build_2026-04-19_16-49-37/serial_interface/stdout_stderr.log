@@ -1,0 +1,24 @@
+[ 36%] Built target serialib
+[ 36%] Built target example_msg_serialize
+[35m[1mConsolidate compiler generated dependencies of target example_referee_serial_test[0m
+[ 63%] Built target example_serial_test
+[ 63%] [32mBuilding CXX object serialPro/CMakeFiles/example_referee_serial_test.dir/example/referee_serial_test.cpp.o[0m
+[ 90%] Built target fire
+[100%] [32m[1mLinking CXX executable example_referee_serial_test[0m
+[100%] Built target example_referee_serial_test
+-- Install configuration: ""
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/ament_index/resource_index/package_run_dependencies/serial_interface
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/ament_index/resource_index/parent_prefix_path/serial_interface
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/ament_prefix_path.sh
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/path.sh
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/environment/path.dsv
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.bash
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.sh
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.zsh
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/local_setup.dsv
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/package.dsv
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/ament_index/resource_index/packages/serial_interface
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/cmake/serial_interfaceConfig.cmake
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/cmake/serial_interfaceConfig-version.cmake
+-- Installing: /home/lhb/AutoAiming_ws/install/serial_interface/share/serial_interface/package.xml

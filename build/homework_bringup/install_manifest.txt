@@ -1,0 +1,16 @@
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/launch/bringup.launch.py
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/ament_index/resource_index/package_run_dependencies/homework_bringup
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/ament_index/resource_index/parent_prefix_path/homework_bringup
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/environment/ament_prefix_path.sh
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/environment/ament_prefix_path.dsv
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/environment/path.sh
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/environment/path.dsv
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/local_setup.bash
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/local_setup.sh
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/local_setup.zsh
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/local_setup.dsv
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/package.dsv
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/ament_index/resource_index/packages/homework_bringup
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/cmake/homework_bringupConfig.cmake
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/cmake/homework_bringupConfig-version.cmake
+/home/lhb/AutoAiming_ws/install/homework_bringup/share/homework_bringup/package.xml

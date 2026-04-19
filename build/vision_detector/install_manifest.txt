@@ -1,0 +1,16 @@
+/home/lhb/AutoAiming_ws/install/vision_detector/lib/vision_detector/read
+/home/lhb/AutoAiming_ws/install/vision_detector/share/ament_index/resource_index/package_run_dependencies/vision_detector
+/home/lhb/AutoAiming_ws/install/vision_detector/share/ament_index/resource_index/parent_prefix_path/vision_detector
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/environment/ament_prefix_path.sh
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/environment/ament_prefix_path.dsv
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/environment/path.sh
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/environment/path.dsv
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/local_setup.bash
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/local_setup.sh
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/local_setup.zsh
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/local_setup.dsv
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/package.dsv
+/home/lhb/AutoAiming_ws/install/vision_detector/share/ament_index/resource_index/packages/vision_detector
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig.cmake
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig-version.cmake
+/home/lhb/AutoAiming_ws/install/vision_detector/share/vision_detector/package.xml

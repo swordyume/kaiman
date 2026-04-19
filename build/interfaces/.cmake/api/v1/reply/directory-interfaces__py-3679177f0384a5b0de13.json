@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interfaces__py",
+		"source" : "/home/lhb/AutoAiming_ws/build/interfaces/interfaces__py"
+	}
+}

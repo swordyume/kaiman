@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target example_msg_serialize[0m
+[35m[1mConsolidate compiler generated dependencies of target serialib[0m
+[ 36%] Built target serialib
+[ 36%] Built target example_msg_serialize
+[35m[1mConsolidate compiler generated dependencies of target example_referee_serial_test[0m
+[35m[1mConsolidate compiler generated dependencies of target example_serial_test[0m
+[35m[1mConsolidate compiler generated dependencies of target fire[0m
+[ 63%] Built target example_serial_test
+[ 63%] [32mBuilding CXX object serialPro/CMakeFiles/example_referee_serial_test.dir/example/referee_serial_test.cpp.o[0m
+[ 90%] Built target fire
+[100%] [32m[1mLinking CXX executable example_referee_serial_test[0m
